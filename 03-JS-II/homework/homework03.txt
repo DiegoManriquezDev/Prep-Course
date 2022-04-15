@@ -1,0 +1,9 @@
+for.- El bucle for es una sentencia que se utiliza para ejecutar un bloque de codigo,
+el cual se terminara de ejecutar cuando se cumpla la expresion o condicion
+que nosotros hayamos definido.
+
+`&&`, `||`, `!` .- Estos son operadores logicos que se utilizan para comparar
+valores, el primero es "AND" el cual devuelve "true" si se cumplen todas las condiciones,
+tambien tenemos el "OR" que devuele true si al menos se cumple una condicion,
+y finalmente el opoerador "NOT" o "!" el cual devuelve el valor booleano
+contrario al que se espera de la expresion.

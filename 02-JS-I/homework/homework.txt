@@ -1,0 +1,5 @@
+Variables.- Son espacios en la memoria que nosotros guardamos para poder realizar alguna operacion, o guardar datos en la memoria que luego vamos a utilizar.
+Strings.- Son cadenas de textos que se utilizan para representar datos o resultados en forma de texto.
+Funciones.- Son objetos invocables, donde se puede guuuardar una serie de instrucciones para reutilizarlas. Puden recibir argumentos como datos dentro de los parentesis y tambien puede devolver un valor, usando la palabra "return".
+Declaraciones "if" .- Son declaraciones que se utilizan para controlar el flujo del programa. Podemos colocar una serie de condiciones para controlar su comportamiento.
+Valores booleanos.- Son valores logicos, que utiliza javascript que solo acepta dos valores: verdadero o falso.

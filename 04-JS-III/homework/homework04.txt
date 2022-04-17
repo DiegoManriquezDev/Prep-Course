@@ -1,0 +1,2 @@
+El array es un objeto en javascript que se utiliza para almacenar datos en forma de lista.
+En otras palabras, es como una caja donde se puede guardar todo tipos de datos, los cuales podemos reutilizar en cualquier momento, accediendo a ellos de distintas maneras.

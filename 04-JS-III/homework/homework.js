@@ -1,5 +1,7 @@
 // No cambies los nombres de las funciones.
 
+const { resetTask } = require("simple-git/src/lib/tasks/reset");
+
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un  array (pasado por parametro)
   // Tu código:
@@ -180,11 +182,18 @@ function todosIguales(arreglo) {
   //Escriba la función todosIguales, que indique si todos los elementos de un arreglo son iguales:
   //retornar true, caso contrario retornar false.
   //Escribe tu código aquí  
-  let numAuxiliar = 0;
   let numeroIgual = false;
-  for(let i = 0; arreglo.length; i++){
-    
+  for(let i = 0; i < arreglo.length; i++){
+    for(let j = arreglo.length - 1; j >= 0; j--){
+      if(arreglo[i] != arreglo[j]){
+        numeroIgual = false;
+        break;
+      }else{
+        numeroIgual = true;
+      }
+    }
   }
+  return numeroIgual;
 
 } 
 
@@ -194,6 +203,22 @@ function mesesDelAño(array) {
   // "Enero", "Marzo" y "Noviembre", guardarlo en nuevo array y retornarlo.
   //Si alguno de los meses no está, devolver: "No se encontraron los meses pedidos"
   // Tu código:
+  const newArray = [];
+  for(let i = 0; i < array.length; i++){
+    if(array[i] == 'Enero'){
+      newArray.push('Enero');
+    }else if(array[i] == 'Marzo'){
+      newArray.push('Marzo');
+    }else if(array[i] == 'Noviembre'){
+      newArray.push('Noviembre');
+    }
+  }
+  if(newArray.length != 3){
+    return 'No se encontraron los meses pedidos';
+  }else{
+    return newArray;
+  }
+
 }
 
 
@@ -201,6 +226,13 @@ function mayorACien(array) {
   //La función recibe un array con enteros entre 0 y 200. Recorrer el array y guardar en un nuevo array sólo los
   //valores mayores a 100 (no incluye el 100). Finalmente devolver el nuevo array.
   // Tu código:
+  const newArray = [];
+  for(let i = 0; i < array.length; i++){
+    if(array[i] > 100){
+      newArray.push(array[i]);
+    }
+  }
+  return newArray;
 }
 
 
@@ -212,6 +244,20 @@ function breakStatement(numero) {
   //devolver: "Se interrumpió la ejecución"
   //Pista: usá el statement 'break'
   // Tu código:
+  let result = 0;
+  const newArray = [];
+  for(let i = 0; i < 10; i++){
+    numero = numero + 2;
+    newArray.push(numero);
+    if(numero == i){
+      result = 'Se interrumpió la ejecución';
+      break;
+    }else{
+      result = newArray;
+    }
+  }
+  return result;
+  
 }
 
 
@@ -222,6 +268,15 @@ function continueStatement(numero) {
   //Cuando el número de iteraciones alcance el valor 5, no se suma en ese caso y se continua con la siguiente iteración
   //Pista: usá el statement 'continue'
   // Tu código:
+  const newArray = [];
+  for(let i = 0; i < 10; i++){
+    if(i ==5){
+      continue;
+    }
+    numero = numero + 2;
+    newArray.push(numero);
+  }
+  return newArray;
 }
 
 

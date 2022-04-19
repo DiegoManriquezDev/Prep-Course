@@ -1,0 +1,17 @@
+Objetos.- Los objetos son contenedores de datos, similares  a los arrays, aunque tienen comportamientos un poco distintos. 
+Ya que dentro de el se pueden guardar propiedades o métodos, asociados a palabras claves , las cuales podemos utilizar para 
+hacer referencia a los valores guardados dentro de ellas.
+
+Propiedades.- Se le llama propiedad a todo valor asignado a una palabra clave. Siendo un concepto muy visto dentro de los objetos.
+
+Métodos.- Son funciones guardadas dentro de los objetos.
+
+Bucle.- Es un iterador que se utiliza para acceder o recorrer las propiedades de un objeto. Ya que estas no está ordenadas por 
+índices como en los arreglos.
+
+Notación de puntos vs notación de corchetes.- Son formas de acceder a las propiedades de los objetos. La notación de puntos 
+es mas fácil de escribir ej: “objeto1.nombre”, la notación de corchetes tiene mas funcionalidades ya que se puede acceder a valores a través de variables
+
+Ej:
+nombre = ‘Diego’;
+objeto1[nombre];

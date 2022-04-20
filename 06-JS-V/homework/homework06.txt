@@ -1,0 +1,8 @@
+prototype.- Los prototipos son los objetos de los que heredan los objetos hijos. 
+Como en javascript casi todos son objetos, todos tienen propiedades y métodos que heredan de otros objetos.
+
+Constructors .- Los constructores son como plantillas que definimos, que pueden ser propiedades o 
+métodos con los que van a ser creados los objetos de esa clase.
+Una clase puede ser ‘Persona’, sabemos que todas las personas tienen nombre, apellido, edad, estatura, etc. 
+Entonces definimos estas propiedades en el constructor de la clase, y cuando comenzamos a crear los objetos, 
+que podrían ser ‘Diego’, ‘Erika’, etc, estos van a heredar dichas propiedades del constructor de la clase, con sus valores propios.

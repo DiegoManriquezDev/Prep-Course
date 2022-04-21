@@ -1,4 +1,67 @@
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.background{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: scroll;
+}
+
+.background::after {
+    content: ""; 
+    background: url('https://www.altonivel.com.mx/wp-content/uploads/2021/07/Comida-japonesa-.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    opacity: 0.4; 
+    top: 0; 
+    left: 0; 
+    bottom: 0; 
+    right: 0; 
+    position: absolute; 
+    z-index: -1; 
+}
+
+.divClass{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+#titles{
+    height: 100px;
+}
+
 h1{
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: olivedrab;
+
+}
+h3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: olivedrab;
+
+}
+
+h4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
     color: olivedrab;
 
 }

@@ -1,0 +1,2 @@
+Callbacks.- Se llama callback cuando pasamos una funcion como argumento a otra funcion. 
+Este es un comprotamiento muy importante en javascript.
